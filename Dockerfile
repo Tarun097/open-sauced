@@ -10,7 +10,6 @@ RUN npm install --global npm@latest
 RUN npm ci
 
 COPY .*.js ./
-COPY *config.?js ./
 COPY vite.config.ts ./
 COPY index.html ./
 COPY public ./public
